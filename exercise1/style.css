@@ -1,0 +1,65 @@
+body{
+	margin-top: 100px;
+	display: flex;
+  	justify-content: center;
+  	background: rgba(130,195,239,0.2);
+}
+
+.biodata{
+	font-family: "verdana";
+	height: 470px;
+	width: 350px;
+	background: rgba(248,100,100,0.8);
+	border-radius: 10px;
+	font-size: 10px;
+	position: absolute;
+}
+
+.bioname{
+	display: block;
+	margin-top: -20px;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: #fffc74;
+	padding: 20px;
+	width: 250px; 
+	text-align: center;
+	border-radius: 20px;
+}
+
+.biodes{
+	height: 350px;
+	width: 300px;
+	background: rgba(182,222,220,0.7);
+	transform: translate(-50%, -50%);
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	border-radius: 10px;
+}
+
+.biososial{
+	background-color: #6a8e9e;
+	text-align: center;
+}
+
+img{
+	position: absolute;
+	padding-top: 20px;
+	left: 25%;
+	transform: translate(50%);
+	border-radius: 50%;
+	width: 70px;
+	height: auto;
+}
+
+.deskname{
+	width: 200px;
+	height: 100px;
+	padding-top: 50%;
+	transform: translate(30%);
+}
+
+form{
+	padding-top: 45%;
+}
